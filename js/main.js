@@ -129,5 +129,13 @@ $(function(){
     }, 2000);
     event.preventDefault();
   });
+  
+  $(".scrollto").click(function() {
+    var e = "#" + $(this).attr("href").split("#")[1],
+    i = $(e).offset().top - 77;
+    return jQuery("html:not(:animated),body:not(:animated)").animate({
+      scrollTop: i
+    }, 800), !1
+  });
 
 });
