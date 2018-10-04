@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/elastislide.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header header-smoll">
+		<div class="header__nav">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-7 col-sm-5 col-8">
+                        <a href="index.html" class="logo">
+                            <img src="img/logo.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 d-lg-block collapse" id="main-menu">
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="about.html">О компании</a></li>
+                                <li><a href="move.html">Недвижимость и переезд</a></li>
+                                <li><a href="contact.html">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 ml-xl-auto col-lg-3 col-md-4 col-sm-5 col-2">
+                        <i id="phone" class="fa fa-phone phone-icon"></i>
+                        <div class="d-sm-block d-none">
+                            <a href="tel:+7 (495) 12-321-345" class="phone">+7 (495) 12-321-345</a>
+                            <a href="tel:+7 (495) 12-321-345" class="phone">+7 (495) 12-321-345</a>
+                        </div>
+                    </div>
+                    <div class="d-lg-none col-md-1 col-sm-2 col-2 d-flex justify-content-end">
+                        <button class="hamburger" data-toggle="collapse" data-target="#main-menu">
+                            <i class="fa fa-2x fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="header-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Контакты</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<a class="down down-smoll" href="#move"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+	</header>
+
+	<section id="move" class="move">
+        <div class="container">
+            <div class="about-text move-text">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <p class="contacts-text">Мы всегда на связи и ответим на все интересующие Вас вопросы!</p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="contacts">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img class="img-fluid" src="img/phone.png">
+                                </div>
+                                <div class="col">
+                                    <span class="text-uppercase font-weight-bold">телефоны</span>
+                                <p>В Болгарии  8 (123) 12-123-123<br>В России&nbsp;&nbsp;&nbsp;&nbsp;8 (495) 12-123-123</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img class="img-fluid" src="img/email.png">
+                                </div>
+                                <div class="col">
+                                    <span class="text-uppercase font-weight-bold">E-mail</span>
+                                    <p><a href="mailto:hi@eventure.com">hi@eventure.com</a></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img class="img-fluid" src="img/skype.png">
+                                </div>
+                                <div class="col">
+                                    <span class="text-uppercase font-weight-bold">skype</span>
+                                <p>skypename</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-5 col-12">
+                        <div class="questions questions-smoll">
+                            <div class="row">
+                                <div class=" col-10 mr-auto ml-auto text-center">
+                                    <h5>Есть вопросы</h5>
+                                    <span class="text-uppercase font-weight-bold">по переезду в Чехию?</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mr-auto ml-auto">
+                                    <p>Мы проконсультируем Вас бесплатно!</p>
+                                    <i class="fa fa-caret-down questions__icon questions__icon-smoll" aria-hidden="true"></i>
+                                    <form action="success.php" class="js-form" id="popupResult">
+                                        <div class="input input-smoll">
+                                             <input type="text" name="name" required placeholder="Имя">
+                                        </div>
+                                        <div class="input input-smoll">
+                                           <input type="email" name="email" required placeholder="E-mail">
+                                        </div>
+                                        <div class="input input-smoll">
+                                            <input type="tel" name="tel" required placeholder="Телефон">
+                                        </div>
+                                        <button data-submit>Заказать консультацию</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <p>2016 / Все права защищены</p>
+                </div>
+                <div class="col-lg-3 col-md-5 d-md-block d-none">
+                    <a class="show-modal">Политика конфиденциальности</a>
+                </div>
+                <div class="col-lg-3 d-lg-block d-none">
+                        <i class="fa fa-phone phone-icon"></i>
+                        <a href="tel:+7 (495) 12-321-345" class="phone">+7 (495) 12-321-345</a>
+                        <a href="tel:+7 (495) 12-321-345" class="phone">+7 (495) 12-321-345</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal_form"><!-- Сaмo oкнo -->
+        <div class="modal-form">
+            <span id="modal_close">&times;</span> <!-- Кнoпкa зaкрыть -->
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="questions questions-smoll">
+                    <div class="row">
+                        <div class=" col-10 mr-auto ml-auto text-center">
+                            <h5>Есть вопросы</h5>
+                            <span class="text-uppercase font-weight-bold">по переезду в Чехию?</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mr-auto ml-auto">
+                            <p>Мы проконсультируем Вас бесплатно!</p>
+                            <i class="fa fa-caret-down questions__icon questions__icon-smoll" aria-hidden="true"></i>
+                            <form action="success.php" class="js-form" id="popupResult">
+                                <div class="input input-smoll">
+                                    <input type="text" name="name" required placeholder="Имя">
+                                </div>
+                                <div class="input input-smoll">
+                                    <input type="email" name="email" required placeholder="E-mail">
+                                </div>
+                                <div class="input input-smoll">
+                                    <input type="tel" name="tel" required placeholder="Телефон">
+                                </div>
+                                <button type="submit">Заказать консультацию</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loader">
+        <img src="img/ripple.svg">
+    </div>
+
+    <div id="overlay">
+        <div id="thx">
+            Спасибо! Мы обязательно вам перезвоним
+        </div>
+    </div><!-- Пoдлoжкa -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+    <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+    <script src="https://use.fontawesome.com/0279959ac4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+
