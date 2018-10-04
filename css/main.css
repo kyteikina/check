@@ -929,7 +929,7 @@ h5 {
     background: #fff;
     position: absolute;
     left: 50%;
-    margin-left: -170px;
+    transform: translateX(-50%);
     top: 50%;
     padding: 30px;
     margin-top: -20px;
